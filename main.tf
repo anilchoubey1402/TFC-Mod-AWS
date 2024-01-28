@@ -20,3 +20,7 @@ region = "us-east-1"
     Name = "Github"
   }
 }
+
+output "Instanceid" {
+    value = "aws_instance.web.instance_type"
+}
