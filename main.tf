@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   required_providers {
     aws = {
         source = "hashicorp/aws"
@@ -23,4 +23,4 @@ region = "us-east-1"
 
 output "Instanceid" {
     value = "aws_instance.web.instance_type"
-}
+}*/
